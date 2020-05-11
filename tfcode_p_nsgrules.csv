@@ -1,0 +1,5 @@
+#direction;priority;sourceAddressPrefixes;sourcePorts;destinationAddressPrefix;protocol;destinationPortRange;accesss;description;name
+#
+Inbound;4000;VirtualNetwork;*;VirtualNetwork;*;0-65535;Deny;;DenyVnetInbound
+#
+Outbound;4020;*;*;Internet;*;0-65535;Deny;;DenyInternetOutbound
