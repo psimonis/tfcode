@@ -27,7 +27,7 @@ variable "project_shortname" {}
 
 
 variable "tags_value_default" {}
-
+variable "azure_client_secret" {}
 
 
 
